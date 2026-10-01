@@ -4,22 +4,33 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Coliving_App",
+  description: "App para controlar as contas de um apartamento compartilhado",
+  emoji: "🏠",
+  accent: "#0d9488",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Add a shared bill",
+      description:
+        "Log rent, electricity, internet and other bills with an amount and due date.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Split bills automatically",
+      description:
+        "Divide each bill equally or by custom shares between roommates.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Who owes whom",
+      description:
+        "See a single balance per roommate showing who should pay whom.",
+    },
+    {
+      title: "Invite roommates",
+      description: "Add your flatmates to the apartment by email.",
+    },
+    {
+      title: "Mark as paid",
+      description: "Settle a debt and keep a history of every payment.",
     },
   ] satisfies Feature[],
 };
