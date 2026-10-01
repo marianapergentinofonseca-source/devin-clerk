@@ -13,12 +13,19 @@ export default function Home() {
         href="/dashboard"
         className="rounded-full bg-accent px-6 py-3 font-medium text-white shadow-sm transition hover:opacity-90"
       >
-        Get early access →
+        Start splitting bills →
       </Link>
-      <p className="text-sm text-black/50">
-        This page is public. The early-access page should be for signed-in users
-        only.
-      </p>
+      <ul className="grid gap-3 text-left text-black/70 sm:grid-cols-3">
+        <li className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm">
+          🧾 Track every shared bill in one place.
+        </li>
+        <li className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm">
+          ➗ Split costs fairly between roommates.
+        </li>
+        <li className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm">
+          ✅ Know who owes whom, no awkward chats.
+        </li>
+      </ul>
     </section>
   );
 }
